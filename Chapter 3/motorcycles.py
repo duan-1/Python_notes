@@ -32,3 +32,16 @@ print(motorcycles)
 print(popped_motorcycles)
 print(f"The last motorcycle I owned was a {last_owned.title()}.")
 '''
+## 删除任意位置的元素
+'''
+first_owned = motorcycles.pop(0)
+print(f"The first motorcycle I owned was a {first_owned.title()}.")
+'''
+
+## 根据值删除元素
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print(f"\nA {too_expensive.title()} is too expensive for me.")
