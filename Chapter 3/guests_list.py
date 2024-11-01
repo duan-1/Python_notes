@@ -44,3 +44,4 @@ print(f"{guests[1].title()}! You can still have dinner with me.")
 del guests[0]
 del guests[0]
 print(guests)
+print(len(guests))
